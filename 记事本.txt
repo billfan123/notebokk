@@ -1,0 +1,241 @@
+﻿largest = None
+
+smallest = None
+
+while True:
+
+    num = raw_input("Enter a number: ")
+
+    if num == "done" : break
+
+	try:
+
+		number = float(num)
+
+	except:
+
+		print "Invalid input"
+
+        continue
+
+    if largest== None and smallest==None:
+
+        largest=float(num)
+
+        smallest=float(num)
+
+	
+
+	if number<smallest:
+
+		smallest=number
+
+		continue
+
+	if number>largest:
+
+		largest=number
+
+		continue
+
+	
+
+print "Maximum", largest
+
+print "Minimum", smallest
+
+
+一种基于云模型的不确定性数据的建模与分类方法 numpy.distutils.system_info.NotFoundError: no lapack/blas resources found
+建模一次，得到误差的模型。建模二次，将样本减去误差后继续建模
+
+哲学家的思想并不会消失，他们的思想存在于他们的原则之中，这些原则所表现的形式会随着时间消失。我们无法重新获得这些思想，但是这些思想
+从本职上来讲是一样的。
+
+x：y转制后用pca（svd）降维得到取出噪声的数据
+
+0.675331954216= 0.17196142+0.6530716
+
+
+
+#basecamprog0 --base camp rog 0 多浆果农场
+#basecamprog1 --butter farm rog 黄油农场
+#basecamprog2 --fire farm (not working in DST) 火猪农场
+#basecamprog3 --dragonfly camp 杀龙蝇场
+#basecamprog4 --base camp rog 1 基本农场1
+#basecamprog5 --pig farm rog 
+#basecamprog6 --spider farm rog 
+#basecamprogturf0 --grass turf for base camp 
+#basecamprogturf1 --carpeted turf for base camp rog 0
+
+
+topcoder
+kaggle
+leetcode
+geeksforgeeks
+
+public time quick-find (member mem, time tim, time[] log){
+int size =0;
+member[] list = new member[];
+for (i=1;i<=m;i++){
+size=root(log[i]);
+if(size==n) break;
+}
+return log[i];
+}
+private int root(time log1){
+for (i=1;i<list.size;i++){
+if (!time.mem1.equel(list[i] )) list [i+1]= time.mem1;
+}
+for (i=1;i<list.size;i++){
+if (!time.mem2.equel(list[i] )) list [i+1]= time.mem1;
+}
+list.add(time.mem1);
+}
+
+nnstart
+
+论文需要修改的地方：1，相关系数和核参数名称重复了2, 在备注中添加250个训练样本的描述
+
+原址排序的意思？
+
+
+For the datasets which have over 100 inputs and outputs, we use the normal 10 fold cross-validation method and on the contrary, for the datasets that have small amount of samples, we will use a new leave-one-out method to demonstrate the predicting performance of different methods. The leave-one-out validation methods focus on the datasets that have less than 30 samples [给个引用] and build n regression model where n is the size of the dataset. After that, the average value of these results is the final evaluation index for the regression model. However, the average value of prediction is hard to demonstrate the totally performance of the regression model, in our leave-one-out validation method, we utilize a figure that contain all the predicting points in that figure and compare it with the original points. In this way, a more vivid picture is built to show the difference between the predicting points and samples. Moreover, it is also important to introduce our evaluation indexes.
+
+
+
+For the data-set with more than 250 samples, the 250 samples are selected randomly in the experiments.
+
+Jupyter Notebook 有两种键盘输入模式。编辑模式，允许你往单元中键入代码或文本；这时的单元框线是绿色的。命令模式，键盘输入运行程序命令；这时的单元框线是灰色。
+Shift+Enter : 运行本单元，选中下个单元
+Ctrl+Enter : 运行本单元
+Alt+Enter : 运行本单元，在其下插入新单元
+Y：单元转入代码状态
+M：单元转入markdown状态
+A ：在上方插入新单元
+B：在下方插入新单元
+X：剪切选中的单元
+Shift +V：在上方粘贴单元
+
+astute-setting-189303
+
+改进思路，根据变量和输出的关系大小来为最终的重构误差来取权值，对于关系比较小的变量减少它在重构误差中的权值。
+
+针对多输出的数据集，对输出进行深层映射，提取变量
+
+Kaggle
+
+
+import numpy as np
+from sklearn.svm import SVR
+import matplotlib.pyplot as plt
+
+# #############################################################################
+# Generate sample data
+X = np.sort(2 * np.random.rand(100, 2)-1, axis=0)
+y1 = 4*np.sin(X[:,1])-(2*np.sin(np.NPY_PI*X[:,2]))
+
+
+tab补全（有时没有及时补全可能是反应慢）、shift+tab显示函数帮助
+
+https://pic1.zhimg.com/v2-e65865c7b434b0c433306344f97c155b_r.jpg
+
+    L 显示 Musha当前等级、经验、睡眠度/疲劳度、演奏充能百分比
+
+    K 显示 当前各项技能的等级
+ddw
+　　P 切换Musha的外表，默认自动随形态切换而切换。（按P只改变外表，无实际效果）
+
+　　2.Musha的主动技能
+
+　　T 睡觉
+
+　　C 激活护盾
+
+　　R 激活/取消闪电打击，开启/关闭女武神形态
+
+　　G 激活/取消隐身
+
+　　X 演奏
+
+　　3.对凤凰\其他随从的命令
+
+　　Z 命令凤凰 跟随/待命
+
+　　V 命令凤凰和召唤物随从 切换攻击模式（侵略型，防御型，逃避型）
+
+　　B 命令凤凰收集物品
+
+　　N Debug指令，命令凤凰丢出收集到的和储存在储物格里的物品。（有时凤凰储物格里的东西会无故“消失”，可以按这个键让它丢出来）
+
+　　F1 命令牛 跟随/待命
+
+GNN
+长短网络
+
+# score=pd.DataFrame(socre,index=None, columns=None)
+
+# score.to_csv(f)
+# f.close()
+# f = open('pd.csv',float_format='%.2f',na_rep="NAN!")
+# para=clf.get_params()
+# score= score.merge(para)
+# with open('stocks.csv','w') as f:
+#     f_csv = csv.writer(f)
+# #     f_csv.writerow(socre)
+#     f_csv.writerows(para)
+
+num = float(input("输入一个数字: "))
+if num > 0:
+   print("正数")
+elif num == 0:
+   print("零")
+else:
+   print("负数")
+
+
+大小为MAX的循环队列中，f为当前对头元素位置，r为当前队尾元素位置(最后一个元素的位置)，则任意时刻，队列中的元素个数为
+
+P(A∩B) = P(A)*P(B|A)=P(B)*P(A|B)； P(B|A) = P(A|B)*P(B) / P(A)。
+
+Math.round(5.2644555 * 100) * 0.01d;
+
+fpga
+
+
+分号：semicolon 冒号： colon 逗号， comma
+
+public class Main {
+	public static void main(String[] stg) {
+		Scanner in = new Scanner(System.in);
+		int n = in.nextInt();
+		String[] clock = new String[n];
+		int res=0;
+		for(int i =0;i<n;i++){
+			clock[i] = in.next();
+			if(check(clock[i])) res++;
+		}
+
+		System.out.println(res);
+	}
+
+	private static boolean check(String string) {
+		int num1 = Integer.parseInt(Character.toString(string.charAt(0)));
+		int num2 = Integer.parseInt(Character.toString(string.charAt(1)));
+		int num3 = Integer.parseInt(Character.toString(string.charAt(3)));
+		int num4 = Integer.parseInt(Character.toString(string.charAt(4)));
+		if((num1==num2&&num3==num4)||(num1==num3&&num2==num4)||(num1==num4&&num3==num2))
+			return true;
+		
+		return false;
+	}
+}
+
+TCP/IP协议族知识点总结： 网络层有IPv4和IPv6，其中单播和多播设计视频流信号传输，可以看一下；运输层主要三个协议
+TCP协议，面向连接的协议（面向连接指发送的数据组不是相互独立的，网络层中的面向连接指数据传输的路径相同），
+UDP协议，不是面向连接，只提供一位检验和做差错控制，没有雍塞控制。
+SCTP协议，没仔细看。忘记了。
+RTP协议，用于视频流传输，在UDP基础上改建，应用级的协议；
+应用层：主机配置：DHCP（Dynamic Host Configuration Protocol）；域名系统DNS（Domain Name System
+）；远程登陆Telnet和SSH（SECURE Shell），文件传输FTP和TFTP，万维网和HTTP（主要讲了如何HTTP协议的过程，首先给个URL连接，然后如果是静态页面就直接返回html等页面，如果其中还有引用的文档就发送请求到另一个网站返回引用；404是文档未查到，500是服务器有差错；还有知识点就是cookie的使用，主要用于标识用户信息，将你关联的信息存进去；还有就是URL里面get，post，PUT，head等方法的使用；还有请求报文的结构以及响应报文的结构。这些经常用到），
+电子邮件SMTP（Simple Mail Transfer Protocol）,POP,IMAP,MIME;网络管理SNMP（Simple Network Management Protocol ）；多媒体（RTP）
+最后是安全性，主要讲了加密的方式，DES,RSA，其中没讲SHA1，有空自个儿看吧，主要就是对称加密和非对称加密，RSA是非对称加密。具体看完在补充。

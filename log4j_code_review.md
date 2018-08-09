@@ -100,4 +100,10 @@ private final Map discardMap = new HashMap();
       }
     }
   }
+```
+# log4j发现的知识点
 
+在多线程写文件当中，同一个文件必须要使用单一线程，logger中使用了handler来对写线程进行唯一话，可以考虑在写文件时加锁来限制。
+```
+synchronized (xxxx.class) {writeToDisk}
+```

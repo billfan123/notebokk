@@ -29,7 +29,7 @@ core-site.xml
 </configuration>
 ```
 mapred-site.xml
-`‵‵
+```
 <configuration>
     <property>
         <name>mapred.job.tracker</name>
@@ -42,7 +42,7 @@ mapred-site.xml
 </configuration>
 ```
 hdfs-site.xml
-`‵‵
+```
 <configuration>
 <property>
             <name>dfs.namenode.name.dir</name>
@@ -61,9 +61,8 @@ hdfs-site.xml
 </configuration>
 ```
 yarn-site.xml
-`‵‵
+```
 <configuration>
-
 <!-- Site specific YARN configuration properties -->
  <property>
         <name>yarn.nodemanager.aux-services</name>
@@ -71,7 +70,6 @@ yarn-site.xml
     </property>
 </configuration>
 ```
-
 ### 免密码登陆
 ssh localhost
   $ ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa

@@ -72,13 +72,18 @@ yarn-site.xml
 ```
 ### 免密码登陆
 ssh localhost
-  $ ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
-  $ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
-  $ chmod 0600 ~/.ssh/authorized_keys
+$ ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
+$ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+$ chmod 0600 ~/.ssh/authorized_keys
  
 ### 启动
 $ bin/hdfs namenode -format
 $ sbin/start-dfs.sh
 $ jps
+### 关闭
+$ sbin/stop-dfs.sh
+
+### 注意
+下次启动不需要再次更新hdfs namenode -format， 这样会导致datanode无法启动，如果无法启动需要删除hadoop/data下文件然后重新初始化，hdfs namenode -format。
 
 

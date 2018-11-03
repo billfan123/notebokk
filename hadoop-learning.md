@@ -14,7 +14,7 @@
 我的配置基本就这一句：export JAVA_HOME=/usr/lib/jvm/jdk-11
 然后配置core-site.xml, mapred-site.xml, hdfs-site.xml, yarn-site.xml。具体配置如下：
 core-site.xml
-`‵‵
+```
 <configuration>
         <!-- 指定HDFS老大（namenode）的通信地址 -->
     <property>
@@ -71,6 +71,7 @@ yarn-site.xml
     </property>
 </configuration>
 ```
+
 ### 免密码登陆
 ssh localhost
   $ ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
